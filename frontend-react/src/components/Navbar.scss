@@ -1,0 +1,42 @@
+@use '../styles/mixins';
+
+.navbar {
+  @include mixins.main-left-right-padding;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3DAE70;
+
+  .logo {
+    display: flex;
+    color: #FFFFFF;
+
+    .logo-image {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .app-name {
+      align-self: center;
+      font-weight: 700;
+      font-size: larger;
+      margin-left: 10px;
+    }
+  }
+
+  .simulation-name {
+    color: #FFFFFF;
+  }
+
+  .auth-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .user-name {
+    margin-right: 2rem;
+    color: #FFFFFF;
+  }
+}
