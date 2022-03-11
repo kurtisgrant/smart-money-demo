@@ -1,0 +1,25 @@
+.login-container-student {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+
+	h1 {
+		margin: 50px 0;
+	}
+
+  .login-student-form {
+    width: 40%;
+  }
+
+	.login-error {
+		color: #ee5253;
+		font-size:small;
+		font-style: italic;
+		padding-left: 10px;
+		margin-bottom: 2%;
+	}
+}
